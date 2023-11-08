@@ -18,6 +18,7 @@
 									width={1440}
 									height={600}
 									priority
+									format="webp"
 									src={image}
 									alt={name}
 									overlays={[
@@ -54,6 +55,7 @@
 					<CldImage
 						crop="fill"
 						width={500}
+						format="webp"
 						height={300}
 						gravity="auto"
 						src={image}

@@ -9,7 +9,7 @@
 				width={120}
 				height={120}
 				priority
-                removeBackground
+				removeBackground
 				src="uml3ohpiqrv20vbyxzc1"
 				alt={'Desert Haven Logo'}
 			/>
