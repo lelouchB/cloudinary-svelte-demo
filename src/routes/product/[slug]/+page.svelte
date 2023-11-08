@@ -13,7 +13,49 @@
 	<meta name="description" content={description} />
 </svelte:head>
 
-<CldOgImage src={image} />
+<CldOgImage
+	src={image}
+	overlays={[
+		{
+			publicId: `pfdisarufkbbbcd3jv9m`,
+			position: {
+				x: 10,
+				y: 10,
+				gravity: 'south_east'
+			},
+			effects: [
+				{
+					crop: 'fill',
+					gravity: 'auto',
+					width: 300,
+					height: 300
+				}
+			]
+		},
+		{
+			position: {
+				x: 0,
+				y: 0,
+				gravity: 'north_west'
+			},
+			effects: [
+				{
+					background: 'black'
+				}
+			],
+
+			text: {
+				color: 'white',
+				fontFamily: 'Open Sans',
+				fontSize: 64,
+				fontWeight: 'bold',
+				text: `${name}`
+			}
+		}
+	]}
+	alt={`${name} | Cloudinary Svelte Demo`}
+	twitterTitle={`${name} | Cloudinary Svelte Demo`}
+/>
 
 <div class="max-w-5xl mx-auto p-4">
 	<div class="grid md:grid-cols-2 gap-24">
