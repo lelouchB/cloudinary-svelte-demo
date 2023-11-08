@@ -35,8 +35,8 @@ export const products = [
 		name: 'Ice Cream In Glass',
 		slug: 'ice-cream-in-glass',
 		price: 30,
-		description: `Creamy ice cream served in a glass, garnished with fresh fruits and a touch of mint.',
-        longDescription: 'Dive into a world of flavors with our ice cream served in a glass. Made with the finest ingredients, this dessert is a blend of creamy texture and refreshing flavors. Garnished with fresh fruits like berries and kiwi, and a touch of mint, it's a visual and sensory delight. Whether you're looking to cool down on a hot day or seeking a dessert to round off a meal, this ice cream in a glass is the perfect choice.`,
+		description: `Creamy ice cream served in a glass, garnished with fresh fruits and a touch of mint.`,
+		longDescription: `Dive into a world of flavors with our ice cream served in a glass. Made with the finest ingredients, this dessert is a blend of creamy texture and refreshing flavors. Garnished with fresh fruits like berries and kiwi, and a touch of mint, it's a visual and sensory delight. Whether you're looking to cool down on a hot day or seeking a dessert to round off a meal, this ice cream in a glass is the perfect choice.`,
 		image: 'abi1mvrybk3b9bxr2squ'
 	},
 	{
@@ -44,8 +44,8 @@ export const products = [
 		name: 'Ice Cream',
 		slug: 'ice-cream',
 		price: 23,
-		description: `Creamy, rich ice cream served in a ceramic bowl. A timeless treat for all ages.',
-        longDescription: 'Ice cream is a universal favorite, loved by both kids and adults alike. Our version of this classic dessert is made with premium ingredients, ensuring a creamy and rich texture. Each scoop is a journey of flavors, promising to satiate your sweet cravings. Served in a ceramic bowl, it's a simple yet delightful treat that can be enjoyed at any time of the day. Pair it with toppings of your choice, from fruits to nuts, for an enhanced experience.`,
+		description: `Creamy, rich ice cream served in a ceramic bowl. A timeless treat for all ages.`,
+		longDescription: `Ice cream is a universal favorite, loved by both kids and adults alike. Our version of this classic dessert is made with premium ingredients, ensuring a creamy and rich texture. Each scoop is a journey of flavors, promising to satiate your sweet cravings. Served in a ceramic bowl, it's a simple yet delightful treat that can be enjoyed at any time of the day. Pair it with toppings of your choice, from fruits to nuts, for an enhanced experience.`,
 		image: 'azfjelaa92pqahrgl2pc',
 		sale: ' 15% Off'
 	},
