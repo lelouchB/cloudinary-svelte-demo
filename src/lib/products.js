@@ -6,7 +6,8 @@ export const products = [
         price: 55, 
         description: 'Waffles with whipped cream and a hint of maple syrup. Perfect for breakfast or dessert.',
         longDescription: `Waffles have been a breakfast favorite for generations. With the perfect combination of fluffy insides and crispy outsides, they are best enjoyed with a dollop of whipped cream and a drizzle of maple syrup. Whether it's for a weekend brunch or a dessert after dinner, these waffles are sure to satisfy your sweet cravings. Paired with a cup of hot coffee or a scoop of vanilla ice cream, it's a treat you wouldn't want to miss.`,
-        image: 'xfkwbnua9sqrgjagoug2'
+        image: 'xfkwbnua9sqrgjagoug2',
+        sale : ' 10% Off'
     },
     {
         id: '2',
@@ -15,7 +16,8 @@ export const products = [
         price: 35, 
         description: 'A delightful mix of strawberries and cream served in a clear jar.',
         longDescription: `Experience the burst of fresh strawberries complemented by the smoothness of cream in this delectable dessert. Each bite takes you on a journey of contrasting textures and flavors, from the juiciness of the strawberries to the silkiness of the cream. Presented in a clear jar, it's not only a feast for the palate but also for the eyes. Perfect for picnics, gatherings, or as a sweet end to a meal.`,
-        image: 'bx1asngfemz0aulpad1q'
+        image: 'bx1asngfemz0aulpad1q',
+
     },
     {
         id: '4',
@@ -24,17 +26,9 @@ export const products = [
         price: 40, 
         description: 'Moist carrot cake topped with rich cream cheese frosting. A timeless classic.',
         longDescription: 'Carrot cake has always been a beloved dessert for many. Made with freshly grated carrots, spices, and topped with a generous amount of cream cheese frosting, this cake promises a burst of flavors and textures. Each slice is a harmonious blend of the earthy sweetness of carrots and the tanginess of the frosting. Ideal for celebrations, gatherings, or simply as a treat to oneself after a long day.',
-        image: 'sweet-tooth/lloajdotcfwz0ram3ngm'
+        image: 'sweet-tooth/lloajdotcfwz0ram3ngm',
+        sale : ' 20% Off'
     },
-    // {
-    //     id: '5',
-    //     name: 'Macaroons',
-    //     slug: 'macaroons',
-    //     price: 60, 
-    //     description: `Assortment of colorful macaroons, each offering a unique flavor and experience.',
-    //     longDescription: 'Macaroons are small, round cookies with a crunchy exterior and a soft interior, filled with various fillings. Originating from France, these little delights have won the hearts of many around the world. Our assortment includes a range of flavors, from the classic vanilla and chocolate to the more adventurous raspberry and pistachio. Each macaroon promises a burst of flavor, making it hard to stop at just one. They are perfect for gifting, sharing, or indulging on your own.`,
-    //     image: 'qy57kx9pxprmu1i9vm09'
-    // },
     {
         id: '6',
         name: 'Ice Cream In Glass',
@@ -51,7 +45,8 @@ export const products = [
         price: 23, 
         description: `Creamy, rich ice cream served in a ceramic bowl. A timeless treat for all ages.',
         longDescription: 'Ice cream is a universal favorite, loved by both kids and adults alike. Our version of this classic dessert is made with premium ingredients, ensuring a creamy and rich texture. Each scoop is a journey of flavors, promising to satiate your sweet cravings. Served in a ceramic bowl, it's a simple yet delightful treat that can be enjoyed at any time of the day. Pair it with toppings of your choice, from fruits to nuts, for an enhanced experience.`,
-        image: 'azfjelaa92pqahrgl2pc'
+        image: 'azfjelaa92pqahrgl2pc',
+        sale : ' 15% Off'
     },
     {
         id: '9',
@@ -60,6 +55,7 @@ export const products = [
         price: 33, 
         description: 'Tender cookies sandwiching a strawberry cream filling. A delightful treat for all occasions.',
         longDescription: `Indulge in the sweet symphony of flavors with our Strawberry Cookie Sandwich. Made with tender cookies and filled with a rich strawberry cream, each bite promises a burst of sweetness and texture. The cookies offer a slight crunch, while the strawberry cream provides a smooth contrast, making it a balanced and delightful treat. Whether it's for a mid-day snack, a dessert after meals, or for special occasions, this cookie sandwich is sure to be a hit among all age groups.`,
-        image: 'qydatcmxqr8oxiywfgmc'
+        image: 'qydatcmxqr8oxiywfgmc',
+        
     }
 ];

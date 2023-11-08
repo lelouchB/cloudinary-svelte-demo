@@ -48,10 +48,44 @@
 	</div>
 
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-		{#each products as { name, id, image, price, slug }, index (id)}
+		{#each products as { name, id, image, price, slug, sale }, index (id)}
 			<div class="w-full h-full rounded-lg overflow-hidden bg-[#F0EFEB]">
 				<a a href={`/product/${slug}`}>
-					<CldImage crop="fill" width={500} height={300} gravity="auto" src={image} alt={name} />
+					<CldImage
+						crop="fill"
+						width={500}
+						height={300}
+						gravity="auto"
+						src={image}
+						alt={name}
+						overlays={sale
+							? [
+									{
+										width: 130,
+										crop: 'fit',
+										position: {
+											x: 0,
+											y: 0,
+											gravity: 'north_west'
+										},
+
+										effects: [
+											{
+												background: 'red'
+											}
+										],
+
+										text: {
+											color: 'white',
+											fontFamily: 'Lato',
+											fontSize: 32,
+											fontWeight: 'bold',
+											text: sale
+										}
+									}
+							  ]
+							: []}
+					/>
 					<div class="p-4">
 						<span />
 						<h3 class="text-xl font-semibold text-[#373567]">{name}</h3>
