@@ -51,7 +51,7 @@
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
 		{#each products as { name, id, image, price, slug, sale }, index (id)}
 			<div class="w-full h-full rounded-lg overflow-hidden bg-[#F0EFEB]">
-				<a a href={`/product/${slug}`}>
+				<a href={`/product/${slug}`}>
 					<CldImage
 						crop="fill"
 						width={500}
@@ -88,14 +88,14 @@
 							  ]
 							: []}
 					/>
-					<div class="p-4">
+					<span class="p-4">
 						<span />
 						<h3 class="text-xl font-semibold text-[#373567]">{name}</h3>
 
 						<span class="mt-1 text-gray-500">
 							${price}
 						</span>
-					</div>
+					</span>
 				</a>
 			</div>
 		{/each}
