@@ -36,7 +36,7 @@
 			position: {
 				x: 0,
 				y: 0,
-				gravity: 'north_west'
+				gravity: 'center'
 			},
 			effects: [
 				{
@@ -47,7 +47,7 @@
 			text: {
 				color: 'white',
 				fontFamily: 'Open Sans',
-				fontSize: 64,
+				fontSize: 140,
 				fontWeight: 'bold',
 				text: `${name}`
 			}
